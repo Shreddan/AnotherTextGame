@@ -28,10 +28,13 @@ bool Game::Update()
 void Game::Tick()
 {
 	tick += tTime;
+
 	//std::cout << tick << std::endl;
 	if (tick >= 10.0f)
 	{
+#ifdef _DEBUG
 		std::cout << ticks << std::endl;
+#endif // DEBUG
 		ticks++;
 		tick = 0;
 	}
