@@ -36,6 +36,7 @@ private:
 
 	//Main Stats
 	std::string name;
+	int level;
 	int hpMax;
 	int hp;
 	int mpMax;
