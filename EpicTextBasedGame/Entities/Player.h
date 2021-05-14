@@ -25,13 +25,16 @@ private:
 	int stamMax;
 	int stamina;
 
-	//Characer Stats
+	//Character Stats
 	int Strength;
 	int Endurance;
 	int Intelligence;
 	int Wisdom;
 	int Perception;
 	int Luck;
+
+	//Secondary Stats
+	int CarryCap;
 
 };
 
