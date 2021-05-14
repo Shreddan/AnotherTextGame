@@ -26,7 +26,7 @@ public:
 	 ~Entity();
 
 	 virtual std::tuple<int, int, int> getPos() = 0;
-	 virtual void setPos(int x, int y) = 0;
+	 virtual void setPos(int a, int x, int y) = 0;
 	 virtual void interact() = 0;
 
 	 virtual void onLoad() = 0;

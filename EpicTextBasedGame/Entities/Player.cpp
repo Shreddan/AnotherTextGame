@@ -8,7 +8,7 @@ Player::~Player()
 {
 }
 
-void Player::setPos(int x, int y)
+void Player::setPos(int a, int x, int y)
 {
     this->x = x;
     this->y = y;

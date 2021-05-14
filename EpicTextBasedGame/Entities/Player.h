@@ -8,7 +8,7 @@ public:
 	~Player();
 
 	
-	void setPos(int x, int y);
+	void setPos(int a, int x, int y);
 
 	void onSave();
 	void onLoad();

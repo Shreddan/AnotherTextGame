@@ -8,13 +8,16 @@ Npc::~Npc()
 {
 }
 
-std::pair<int, int> Npc::GetPos()
+std::tuple<int, int, int> Npc::getPos()
 {
-	return std::make_pair(this->x, this->y);
+	return std::make_tuple(this->a, this->x, this->y);
 }
 
-void Npc::SetPos(int x, int y)
+void Npc::setPos(int a, int x, int y)
 {
+	this->a = a;
+	this->x = x;
+	this->y = y;
 }
 
 void Npc::Interact()
