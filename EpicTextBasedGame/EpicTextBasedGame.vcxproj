@@ -148,9 +148,11 @@
     <ClCompile Include="Entities\Entity.cpp" />
     <ClCompile Include="Entities\Player.cpp" />
     <ClCompile Include="Events\Event.cpp" />
+    <ClCompile Include="Item\Item.cpp" />
     <ClCompile Include="Npc.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Area.h" />
@@ -158,7 +160,9 @@
     <ClInclude Include="Entities\Player.h" />
     <ClInclude Include="Events\Event.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Item\Item.h" />
     <ClInclude Include="Npc.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

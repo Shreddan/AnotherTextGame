@@ -5,7 +5,8 @@ struct Room
 {
 	int a;
 	int x;
-	int y
+	int y;
+
 };
 
 class Area
