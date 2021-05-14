@@ -1,7 +1,9 @@
 #pragma once
 #include <utility>
+#include <tuple>
 #include <vector>
 #include <string>
+#include <single_include/nlohmann/json.hpp>
 
 struct Parts
 {
@@ -23,9 +25,12 @@ public:
 	 Entity();
 	 ~Entity();
 
-	 virtual std::pair<int, int> getPos() = 0;
+	 virtual std::tuple<int, int, int> getPos() = 0;
 	 virtual void setPos(int x, int y) = 0;
 	 virtual void interact() = 0;
+
+	 virtual void onLoad() = 0;
+	 virtual void onSave() = 0;
 
 	 
 };

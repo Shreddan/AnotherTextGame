@@ -7,13 +7,13 @@ public:
 	Npc();
 	~Npc();
 
-	std::pair<int, int> GetPos();
+	std::tuple<int, int, int> getPos();
 	void SetPos(int x, int y);
 	void Interact();
 
 private:
 	std::string name;
-	int demeanor;
+	int a;
 	int x;
 	int y;
 };

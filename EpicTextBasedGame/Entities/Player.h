@@ -10,11 +10,12 @@ public:
 	
 	void setPos(int x, int y);
 
-	void Load();
+	void onSave();
+	void onLoad();
 
 
 	//Accessors
-	std::pair<int, int> getPos();
+	std::tuple<int, int, int> getPos();
 	std::string getName();
 	int getHPMax();
 	int getHP();
@@ -29,6 +30,7 @@ public:
 private:
 	
 	//Position variables
+	int a;
 	int x;
 	int y;
 

@@ -14,14 +14,18 @@ void Player::setPos(int x, int y)
     this->y = y;
 }
 
-void Player::Load()
+void Player::onSave()
+{
+}
+
+void Player::onLoad()
 {
 
 }
 
-std::pair<int, int> Player::getPos()
+std::tuple<int, int, int> Player::getPos()
 {
-    return std::make_pair(this->x, this->y);
+    return std::make_tuple(this->a, this->x, this->y);
 }
 
 std::string Player::getName()
