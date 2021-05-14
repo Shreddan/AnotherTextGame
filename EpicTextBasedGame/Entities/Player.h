@@ -8,7 +8,9 @@ public:
 	~Player();
 
 	
-	void setPos();
+	void setPos(int x, int y);
+
+	void Load();
 
 
 	//Accessors
@@ -16,7 +18,12 @@ public:
 	std::string getName();
 	int getHPMax();
 	int getHP();
-
+	int GetMPMax();
+	int getMP();
+	int getStamMax();
+	int getStamina();
+	int getExp();
+	int getTNL();
 
 
 private:
@@ -33,6 +40,8 @@ private:
 	int mp;
 	int stamMax;
 	int stamina;
+	int exp;
+	int tilNext;
 
 	//Character Stats
 	int Strength;
