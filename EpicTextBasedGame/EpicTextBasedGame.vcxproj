@@ -158,6 +158,7 @@
     <ClInclude Include="Area.h" />
     <ClInclude Include="Entities\Entity.h" />
     <ClInclude Include="Entities\Player.h" />
+    <ClInclude Include="EscapeSequences.h" />
     <ClInclude Include="Events\Event.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Item\Item.h" />

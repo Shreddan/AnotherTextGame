@@ -57,5 +57,8 @@ private:
 	//Secondary Stats
 	int CarryCap;
 
+	std::vector<Item> Inventory;
+
+	std::vector<Item> Equipment;
 };
 

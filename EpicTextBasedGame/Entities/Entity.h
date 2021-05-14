@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <single_include/nlohmann/json.hpp>
+#include "../Item/Item.h"
 
 struct Parts
 {

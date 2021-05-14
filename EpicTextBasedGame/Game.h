@@ -13,6 +13,7 @@ public:
 	//Main Funcs
 	void Setup();
 	bool Update();
+	bool Running;
 
 	//Time Funcs
 	void Tick();

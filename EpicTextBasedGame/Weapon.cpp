@@ -10,6 +10,7 @@ Weapon::~Weapon()
 
 Item* Weapon::getItem()
 {
+	return this;
 }
 
 int Weapon::getDamage()

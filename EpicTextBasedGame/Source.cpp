@@ -7,7 +7,6 @@ int main()
 	g.Setup();
 	while (g.Running)
 	{
-
 		g.Running = g.Update();
 	}
 }

@@ -15,6 +15,7 @@ void Game::Setup()
 {
 	this->tp1 = std::chrono::system_clock::now();
 	this->tp2 = std::chrono::system_clock::now();
+	Running = true;
 }
 
 bool Game::Update()
