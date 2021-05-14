@@ -6,6 +6,21 @@ public:
 	Weapon();
 	~Weapon();
 
+	enum class wType
+	{
+		Hand = 0,
+		Dagger = 1,
+		ShortSword = 2,
+		Estoc = 3,
+		Club = 4,
+		Mace = 5,
+		WarHammer = 6,
+		WarAxe = 7,
+		Spear = 8,
+		Halberd = 9,
+		Flail = 10
+	};
+
 
 	//Accessors
 	Item* getItem();
