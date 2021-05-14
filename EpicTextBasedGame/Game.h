@@ -10,17 +10,21 @@ public:
 	Game();
 	~Game();
 
+	//Main Funcs
 	void Setup();
-
 	bool Update();
 
-	bool Running = Update();
-
+	//Time Funcs
 	void Tick();
-
 	void CalcTime();
 
+	//Accessors
+	float GetElapsed();
+	float GetTick();
+	int GetTicks();
+	void GetPartyMembers();
 
+private:
 	float tTime;
 	float tick;
 
