@@ -7,8 +7,17 @@ public:
 	Player();
 	~Player();
 
-	std::pair<int, int> GetPos();
-	void SetPos();
+	
+	void setPos();
+
+
+	//Accessors
+	std::pair<int, int> getPos();
+	std::string getName();
+	int getHPMax();
+	int getHP();
+
+
 
 private:
 	

@@ -23,9 +23,9 @@ public:
 	 Entity();
 	 ~Entity();
 
-	 virtual std::pair<int, int> GetPos() = 0;
-	 virtual void SetPos(int x, int y) = 0;
-	 virtual void Interact() = 0;
+	 virtual std::pair<int, int> getPos() = 0;
+	 virtual void setPos(int x, int y) = 0;
+	 virtual void interact() = 0;
 
 	 
 };
