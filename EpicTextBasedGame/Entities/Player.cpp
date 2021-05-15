@@ -23,6 +23,10 @@ void Player::onLoad()
 
 }
 
+void Player::onEquip()
+{
+}
+
 std::tuple<int, int, int> Player::getPos()
 {
     return std::make_tuple(this->a, this->x, this->y);

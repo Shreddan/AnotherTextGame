@@ -1,5 +1,6 @@
 #pragma once
 #include "Entities/Player.h"
+#include "Command.h"
 #include <chrono>
 #include <thread>
 #include <iostream>
@@ -34,8 +35,6 @@ private:
 
 	std::chrono::system_clock::time_point tp1;
 	std::chrono::system_clock::time_point tp2;
-
-	std::vector<Entity> Party;
 
 };
 

@@ -1,12 +1,14 @@
 #pragma once
 #include <vector>
+#include "Entities/Player.h"
 
 struct Room
 {
 	int a;
 	int x;
 	int y;
-
+	std::vector<Entity> occupants;
+	std::vector<Room*> exits;
 };
 
 class Area

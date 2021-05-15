@@ -51,3 +51,26 @@ void Game::CalcTime()
 
 	tTime = Elapsed;
 }
+
+float Game::GetElapsed()
+{
+	return this->tTime;
+}
+
+float Game::GetTick()
+{
+	return this->tick;
+}
+
+int Game::GetTicks()
+{
+	return this->ticks;
+}
+
+void Game::GetPartyMembers()
+{
+	for (size_t i = 0; i < Party.size(); i++)
+	{
+		
+	}
+}

@@ -13,6 +13,8 @@ public:
 	void onSave();
 	void onLoad();
 
+	void onEquip();
+
 
 	//Accessors
 	std::tuple<int, int, int> getPos();
@@ -57,8 +59,10 @@ private:
 	//Secondary Stats
 	int CarryCap;
 
-	std::vector<Item> Inventory;
 
+	//Players things
+	std::vector<Item> Inventory;
+	std::vector<Parts> bParts;
 	std::vector<Item> Equipment;
 };
 
