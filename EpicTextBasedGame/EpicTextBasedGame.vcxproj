@@ -120,6 +120,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>H:\source\repos\EpicTextBasedGame\EpicTextBasedGame\Entities;H:\source\repos\EpicTextBasedGame\EpicTextBasedGame\Events;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +152,6 @@
     <ClCompile Include="Events\Event.cpp" />
     <ClCompile Include="Item\Item.cpp" />
     <ClCompile Include="Entities\Npc.cpp" />
-    <ClCompile Include="Party.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Weapon.cpp" />
@@ -166,7 +166,6 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Item\Item.h" />
     <ClInclude Include="Entities\Npc.h" />
-    <ClInclude Include="Party.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

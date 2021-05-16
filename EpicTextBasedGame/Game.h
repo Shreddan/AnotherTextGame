@@ -17,14 +17,14 @@ public:
 	bool Running;
 
 	//Time Funcs
-	void Tick();
+	void Tick(float tTime, float tick, int ticks);
 	void CalcTime();
 
 	//Accessors
 	float GetElapsed();
 	float GetTick();
 	int GetTicks();
-	void GetPartyMembers();
+	//void GetPartyMembers();
 
 private:
 	float tTime;
@@ -36,5 +36,8 @@ private:
 	std::chrono::system_clock::time_point tp1;
 	std::chrono::system_clock::time_point tp2;
 
+	Command* cmd = nullptr;
+
+	std::thread tickth;
 };
 
